@@ -110,6 +110,10 @@ class Task:
         self._scheduled_task_frequency = new_frequency  
     def get_task_assigned_pet_ids(self):
         return self._assigned_pet_ids
+    def get_task_id(self):
+        return self._task_id
+    def set_task_id(self, new_id):
+        self._task_id = new_id  
     
     #Method to mark the task as completed
     def mark_task_completed(self):

@@ -41,7 +41,7 @@ def create_pet_profile():
         new_pet_profile.set_pet_bio(pet_bio)
         new_pet_profile.set_pet_medications(pet_medications)
         new_pet_profile.set_pet_allergies(pet_allergies)
-        return new_pet_profile
+    return new_pet_profile
 
 # Method to create a new task by prompting the user for input and validating the input using the error handling class
 def create_task():
